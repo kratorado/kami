@@ -15,7 +15,7 @@ public class Main {
 	public static void main(String... args) throws Exception {
 		File file = null;
 		if (args == null || args.length == 0) {
-			file = new File("/home/dujunjun/Desktop/level.txt");
+			file = new File("/path/level.txt");
 		} else {
 			file = new File(args[0]);
 		}
